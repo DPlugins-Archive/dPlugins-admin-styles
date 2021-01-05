@@ -21,7 +21,6 @@ function DP_settings_page() {
 		'dashicons-editor-code'
 	);
 
-	add_submenu_page( SCORG_SAMPLE_PLUGIN_LICENSE_PAGE, 'License', 'License', 'manage_options', SCORG_SAMPLE_PLUGIN_LICENSE_PAGE, 'SCORG_license_page', 9999 );
 }
 add_action('admin_menu', 'DP_settings_page');
 
