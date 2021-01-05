@@ -19,7 +19,7 @@
         }
         
         &:checked:hover + .switch__slider {
-            background-color: $action-10;
+            background-color: $action--hover;
         }
 
         &:focus + .switch__slider {
