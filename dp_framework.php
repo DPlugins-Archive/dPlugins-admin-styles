@@ -2,11 +2,12 @@
 
 /**
  * Plugin Name:       DP Framework
- * Plugin URI:        https://dolugins.com
+ * Plugin URI:        https://dolugins.com/
  * Description:       Handle the basics with this plugin.
  * Version:           0.0.1
  * Author:            dplugins
-**/
+ * Author URI:        https://dolugins.com/
+*/
 
 define('DP_URL',	plugin_dir_url(__FILE__));
 
