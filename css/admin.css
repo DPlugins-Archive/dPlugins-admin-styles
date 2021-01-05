@@ -1,0 +1,241 @@
+:root {
+  --wp-admin-theme-color: #007cba;
+  --wp-admin-theme-color-darker-10: #006ba1;
+  --wp-admin-theme-color-darker-20: #005a87;
+}
+
+body.admin-color-light {
+  --wp-admin-theme-color: #0085ba;
+  --wp-admin-theme-color-darker-10: #0073a1;
+  --wp-admin-theme-color-darker-20: #006187;
+}
+
+body.admin-color-modern {
+  --wp-admin-theme-color: #3858e9;
+  --wp-admin-theme-color-darker-10: #2145e6;
+  --wp-admin-theme-color-darker-20: #183ad6;
+}
+
+body.admin-color-blue {
+  --wp-admin-theme-color: #096484;
+  --wp-admin-theme-color-darker-10: #07526c;
+  --wp-admin-theme-color-darker-20: #064054;
+}
+
+body.admin-color-coffee {
+  --wp-admin-theme-color: #46403c;
+  --wp-admin-theme-color-darker-10: #383330;
+  --wp-admin-theme-color-darker-20: #2b2724;
+}
+
+body.admin-color-ectoplasm {
+  --wp-admin-theme-color: #523f6d;
+  --wp-admin-theme-color-darker-10: #46365d;
+  --wp-admin-theme-color-darker-20: #3a2c4d;
+}
+
+body.admin-color-midnight {
+  --wp-admin-theme-color: #e14d43;
+  --wp-admin-theme-color-darker-10: #dd382d;
+  --wp-admin-theme-color-darker-20: #d02c21;
+}
+
+body.admin-color-ocean {
+  --wp-admin-theme-color: #627c83;
+  --wp-admin-theme-color-darker-10: #576e74;
+  --wp-admin-theme-color-darker-20: #4c6066;
+}
+
+body.admin-color-sunrise {
+  --wp-admin-theme-color: #dd823b;
+  --wp-admin-theme-color-darker-10: #d97426;
+  --wp-admin-theme-color-darker-20: #c36922;
+}
+
+.radio {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-bottom: 15px;
+}
+.radio__input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.radio__input:checked ~ .radio__bg {
+  background-color: var(--wp-admin-theme-color);
+}
+.radio__input:checked ~ .radio__bg::after {
+  display: block;
+}
+.radio__bg {
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: lightgrey;
+  border-radius: 100px;
+  transition: 0.2s;
+  margin-right: 15px;
+}
+.radio__bg:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 15px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  transform: rotate(45deg);
+  border-style: solid;
+  border-color: white;
+  -o-border-image: initial;
+     border-image: initial;
+  border-width: 0px 3px 3px 0px;
+}
+.radio:hover .radio__input ~ .radio__bg {
+  transition: 0.2s;
+  background-color: grey;
+}
+
+.checkbox {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-bottom: 15px;
+}
+.checkbox__input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox__input:checked ~ .checkbox__bg {
+  background-color: var(--wp-admin-theme-color);
+}
+.checkbox__input:checked ~ .checkbox__bg::after {
+  display: block;
+}
+.checkbox__bg {
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: lightgrey;
+  transition: 0.2s;
+  margin-right: 15px;
+  border-radius: 2px;
+}
+.checkbox__bg:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 15px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  transform: rotate(45deg);
+  border-style: solid;
+  border-color: white;
+  -o-border-image: initial;
+     border-image: initial;
+  border-width: 0px 3px 3px 0px;
+}
+.checkbox:hover .checkbox__input ~ .checkbox__bg {
+  transition: 0.2s;
+  background-color: var(--wp-admin-theme-color);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+.switch__checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switch__checkbox:checked + .switch__slider {
+  background-color: var(--wp-admin-theme-color);
+}
+.switch__checkbox:checked:hover + .switch__slider {
+  background-color: var(--wp-admin-theme-color-darker-10);
+}
+.switch__checkbox:focus + .switch__slider {
+  box-shadow: 0 0 1px var(--wp-admin-theme-color);
+}
+.switch__checkbox:checked + .switch__slider:before {
+  transform: translateX(30px);
+}
+.switch__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: lightgrey;
+  transition: 0.2s;
+  border-radius: 2px;
+}
+.switch__slider:hover {
+  background-color: grey;
+}
+.switch__slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 2px;
+}
+
+.switch--small {
+  width: 35px;
+  height: 18px;
+}
+.switch--small .switch__slider:before {
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  bottom: 3px;
+}
+.switch--small .switch__checkbox:checked + .switch__slider:before {
+  transform: translateX(16px);
+}
+
+.switch--rounded .switch__slider {
+  border-radius: 34px;
+}
+.switch--rounded .switch__slider:before {
+  border-radius: 50%;
+}
+
+.dp-btn_pri {
+  color: #fff;
+  background-color: var(--wp-admin-theme-color);
+  border: 2px solid var(--wp-admin-theme-color);
+}
+
+/*# sourceMappingURL=admin.css.map */

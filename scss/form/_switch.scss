@@ -1,0 +1,100 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+
+
+    &__checkbox { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+
+        &:hover + .switch__slider {
+           
+        }
+
+        &:checked + .switch__slider {
+            background-color: $action;
+        }
+        
+        &:checked:hover + .switch__slider {
+            background-color: $action-10;
+        }
+
+        &:focus + .switch__slider {
+            box-shadow: 0 0 1px $action;
+        }
+
+        &:checked + .switch__slider:before {
+            transform: translateX(30px);
+        }
+
+
+
+    }
+
+
+    &__slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $disabled;
+        transition: .2s;
+        border-radius: 2px;
+
+        &:hover{
+             background-color: $disabled--hover;
+        }
+
+
+        &:before {
+            position: absolute;
+            content: "";
+            height: 22px;
+            width: 22px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .2s;
+            border-radius: 2px;
+        }
+
+    }
+
+}
+
+
+
+// Small Switch
+.switch--small{
+    width: 35px;
+    height: 18px;
+
+
+    .switch__slider:before{
+        height: 12px;
+        width: 12px;
+        left: 3px;
+        bottom: 3px;
+    }
+
+    .switch__checkbox:checked + .switch__slider:before{
+        transform: translateX(16px);
+    }
+
+}
+
+
+
+// Rounded Switch
+.switch--rounded .switch__slider {
+    border-radius: 34px;
+
+    &:before {
+        border-radius: 50%;
+    }
+}
