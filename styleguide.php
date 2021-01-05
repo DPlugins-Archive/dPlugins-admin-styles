@@ -53,6 +53,28 @@
 
 </form>
 
+<form action="#">
+
+	<h2>Inputs</h2>
+		
+	<label class="dp--input">
+		<input type="text" placeholder="something" />
+	</label>
+	
+	<label class="dp--input-file">
+		<input type="file" placeholder="something" />
+	</label>
+
+	<label class="dp--select">
+		<select name="something">
+			<option value="one">Option 1</option>
+			<option value="two">Option 2</option>
+			<option value="three">Option 3</option>
+		</select>
+	</label>
+
+</form>
+
 
 <form action="#">
 
