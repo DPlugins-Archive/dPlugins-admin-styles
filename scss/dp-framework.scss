@@ -1,0 +1,28 @@
+$action:            var( --wp-admin-action );
+$action--hover:     var( --wp-admin-action--hover );
+
+$acent:             var( --wp-admin-theme-acent );
+$acent--hover:      var( --wp-admin-theme-acent--hover );
+
+$grey1:     #191E23;
+$grey2:     #23282D;
+$grey3:     #32373C;
+$grey4:     #82878C;
+$grey5:     #A0A5AA;
+$grey6:     #B4B9BE;
+$admin-bg:  #f1f1f1;
+
+// Form
+$not-active-color: $grey6;
+
+// // Base
+@import "base/colors";
+@import "base/typography";
+
+// // Form
+@import "form/radio"; 		// Done
+@import "form/checkbox"; 	// Done
+@import "form/switch";		// Done
+@import "form/input";
+@import "form/submit";
+
