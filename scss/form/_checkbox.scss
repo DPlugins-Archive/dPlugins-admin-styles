@@ -1,65 +1,64 @@
-.checkbox {
-    display: flex;
-    vertical-align: center;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    font-size: $body--fzn;
-    user-select: none;
-    margin-bottom: 15px;
 
 
-    &__input {
-    // position: absolute;
-        opacity: 0;
+.dp--checkbox ul{
+
+    // Reset
+    input[type=checkbox]{
+        border: none;
+        clear: none;
         cursor: pointer;
-        height: 0;
-        width: 0;
-
-
-        &:checked ~ .checkbox__bg {
-            background-color: $action;
-
-            &::after {
-              display: block;
-            }
-        }
-
-
+        outline: 0;
+        -webkit-appearance: none;
     }
 
-
-    &__bg {
-    // position: absolute;
-        top: 0;
-        left: 0;
-        height: 25px;
-        width: 25px;
-        background-color: $disabled;
-        transition: .2s;
-        margin-right: 15px;
+    // Style
+    input[type=checkbox] {
         border-radius: 2px;
+        background: none;
+        border: 2px solid $grey5;
+        
+        height: 20px !important;
+        width: 20px !important;
+            
+            &:hover{
+                border: 2px solid $action;        
+            }
+        
+            &:before {
+                content: '';
+                display: block;
+                position: relative;
+                left: 8px;
+                top: 3px;
+                width: 5px;
+                height: 10px;
+                transform: rotate(45deg);
+                border-style: solid;
+                border-color: white;
+                border-image: initial;
+                border-width: 0px 2px 2px 0px;
 
-        &:after {
-            content: "";
-            position: absolute;
-            display: none;
-            left: 15px;
-            top: 5px;
-            width: 5px;
-            height: 10px;
-            transform: rotate(45deg);
-            border-style: solid;
-            border-color: white;
-            border-image: initial;
-            border-width: 0px 3px 3px 0px;
-        }
+                transform: rotate(45deg) scale(0);
+                transition: all 0.1s ease;
+            }
+
+
+            &:checked {
+                background-color: $action;
+                border: 2px solid $action;        
+            }
+
+            &:checked:before {
+                transform: rotate(45deg) scale(1);
+                transition: all 0.1s ease;
+            }
+
+            &:focus{
+                box-shadow: none;
+                outline: none;
+            }
+
     }
 
-    &:hover .checkbox__input ~ .checkbox__bg {
-        transition: .2s;
-        background-color: $action;
-    }
-
-
+    
 }

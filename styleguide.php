@@ -1,4 +1,132 @@
 
+<h1>Metabox.io Setup</h1>
+
+
+<h2>Checkbox</h2>
+<div class="rwmb-field rwmb-checkbox-wrapper dp--checkbox">
+    <div class="rwmb-label">
+        <label for="SCORG_script_type">Script in Header or Footer?</label>
+
+    </div>
+    <div class="rwmb-input">
+        <ul class="rwmb-input-list rwmb-collapse">
+            <li><label><input value="header" type="checkbox" size="30" class="rwmb-checkbox" name="SCORG_script_type" checked="checked">Header</label></li>
+            <li><label><input value="footer" type="checkbox" size="30" class="rwmb-checkbox" name="SCORG_script_type">Footer</label></li>
+        </ul>
+    </div>
+</div>
+
+<!-- <form action="#">
+
+	<h2>Checkbox</h2>
+		
+	<label class="checkbox" for="vehicle1">
+		<input 	class="checkbox__input" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+		<span 	class="checkbox__bg"></span>
+		I have a bike
+	</label>
+	
+	<label class="checkbox" for="vehicle2">
+		<input 	class="checkbox__input" type="checkbox" id="vehicle2" name="vehicle2" value="Bike">
+		<span 	class="checkbox__bg"></span>
+		I have a bike
+	</label>
+
+</form> -->
+
+
+
+
+<h2>Switch</h2>
+
+<div class="rwmb-field rwmb-switch-wrapper dp--switch">
+    <div class="rwmb-label">
+        <label for="SCORG_enable_script">Enable/Disable Script</label>
+
+    </div>
+    <div class="rwmb-input">
+        <label class="rwmb-switch-label rwmb-switch-label--rounded">
+            <input value="1" type="checkbox" size="30" id="SCORG_enable_script" class="rwmb-switch" name="SCORG_enable_script" checked="checked">
+            <div class="rwmb-switch-status">
+                <span class="rwmb-switch-slider"></span>
+                <span class="rwmb-switch-on">Enabled</span>
+                <span class="rwmb-switch-off">Disabled</span>
+            </div>
+        </label>
+    </div>
+</div>
+
+<div class="rwmb-field rwmb-switch-wrapper dp--switch">
+    <div class="rwmb-label">
+        <label for="SCORG_enable_script">Enable/Disable Script</label>
+
+    </div>
+    <div class="rwmb-input">
+        <label class="rwmb-switch-label rwmb-switch-label--square">
+            <input value="1" type="checkbox" size="30" id="SCORG_enable_script" class="rwmb-switch" name="SCORG_enable_script" checked="checked">
+            <div class="rwmb-switch-status">
+                <span class="rwmb-switch-slider"></span>
+                <span class="rwmb-switch-on">Enabled</span>
+                <span class="rwmb-switch-off">Disabled</span>
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+<h2>Radio</h2>
+<div class="rwmb-field rwmb-radio-wrapper dp--radio">
+    <div class="rwmb-label">
+        <label for="SCORG_script_type">Script in Header or Footer?</label>
+
+    </div>
+    <div class="rwmb-input">
+        <ul class="rwmb-input-list rwmb-collapse">
+            <li><label><input value="header" type="radio" size="30" class="rwmb-radio" name="SCORG_script_type" checked="checked">Header</label></li>
+            <li><label><input value="footer" type="radio" size="30" class="rwmb-radio" name="SCORG_script_type">Footer</label></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+<h2>Textarea</h2>
+<div class="rwmb-field rwmb-textarea-wrapper dp--textarea">
+    <div class="rwmb-label">
+        <label for="SCORG_script_description">Description</label>
+
+    </div>
+    <div class="rwmb-input"><textarea cols="10" rows="3" id="SCORG_script_description" class="rwmb-textarea large-text" name="SCORG_script_description" spellcheck="false"></textarea></div>
+</div>
+
+
+
+<h2>Date</h2>
+<div class="rwmb-field rwmb-date-wrapper dp--date" style="">
+    <div class="rwmb-label">
+        <label for="SCORG_specific_date">Date</label>
+
+    </div>
+    <div class="rwmb-input"><input data-options="{&quot;timeFormat&quot;:&quot;HH:mm&quot;,&quot;separator&quot;:&quot; &quot;,&quot;dateFormat&quot;:&quot;yy-mm-dd&quot;,&quot;showButtonPanel&quot;:false}" size="30" type="text" id="SCORG_specific_date" class="rwmb-date hasDatepicker valid"
+            name="SCORG_specific_date" aria-invalid="false"></div>
+</div>
+
+
+<h2>Time</h2>
+
+<div class="rwmb-field rwmb-time-wrapper dp--time" style="">
+    <div class="rwmb-label">
+        <label for="SCORG_specific_time_start">Start at Specific Time</label>
+
+    </div>
+    <div class="rwmb-input"><input data-options="{&quot;timeFormat&quot;:&quot;HH:mm&quot;,&quot;separator&quot;:&quot; &quot;,&quot;dateFormat&quot;:&quot;yy-mm-dd&quot;,&quot;showButtonPanel&quot;:true,&quot;stepMinute&quot;:15,&quot;controlType&quot;:&quot;select&quot;,&quot;oneLine&quot;:true}"
+            size="30" type="text" id="SCORG_specific_time_start" class="rwmb-time hasDatepicker" name="SCORG_specific_time_start"></div>
+</div>
+
 <!-- <form action="#">
 
 	<h2>DropDowns</h2>
@@ -35,23 +163,7 @@
 </form>
  -->
 
-<form action="#">
 
-	<h2>Checkbox</h2>
-		
-	<label class="checkbox" for="vehicle1">
-		<input 	class="checkbox__input" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-		<span 	class="checkbox__bg"></span>
-		I have a bike
-	</label>
-	
-	<label class="checkbox" for="vehicle2">
-		<input 	class="checkbox__input" type="checkbox" id="vehicle2" name="vehicle2" value="Bike">
-		<span 	class="checkbox__bg"></span>
-		I have a bike
-	</label>
-
-</form>
 
 <form action="#">
 

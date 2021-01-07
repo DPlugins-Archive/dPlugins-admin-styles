@@ -1,13 +1,22 @@
-$body--fzn: 16px;
+$action:    var( --wp-admin-theme-color );
+$action-10: var( --wp-admin-theme-color-10 );;
+$action-20: var( --wp-admin-theme-color-20 );;
 
+$grey1:     #191E23;
+$grey2:     #23282D;
+$grey3:     #32373C;
+$grey4:     #82878C;
+$grey5:     #A0A5AA;
+$grey6:     #B4B9BE;
+$admin-bg:  #f1f1f1;
 
 // Base
 @import "base/colors";
 @import "base/typography";
 
 // Form
-@import "form/radio";
+// @import "form/radio";
 @import "form/checkbox";
-@import "form/switch";
-@import "form/input";
-@import "form/submit";
+// @import "form/switch";
+// @import "form/input";
+// @import "form/submit";
