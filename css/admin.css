@@ -108,8 +108,8 @@ body.admin-color-sunrise {
 .dp--radio ul input[type=radio]:before {
   content: "";
   display: block;
-  width: 6px;
-  height: 6px;
+  width: 6px !important;
+  height: 6px !important;
   border-style: solid;
   -o-border-image: initial;
      border-image: initial;
