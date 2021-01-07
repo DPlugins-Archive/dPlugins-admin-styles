@@ -9,22 +9,22 @@
 	],
 "creatorBuild": "33081",
 "files": {
-	"/css/admin.css": {
+	"/css/dp-framework.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/admin-min.css",
+		"oAP": "/css/dp-framework-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/admin.css.map": {
+	"/css/dp-framework.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/css/admin.css.map",
+		"oAP": "/css/dp-framework.css.map",
 		"oF": 0
 		},
 	"/dp_framework.php": {
@@ -33,6 +33,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dp_framework.php",
+		"oF": 0
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.php",
 		"oF": 0
 		},
 	"/scss/_colors.scss": {
@@ -45,19 +53,6 @@
 		"oA": 1,
 		"oAP": "/scss/_colors.css",
 		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/scss/admin.scss": {
-		"aP": 1,
-		"bl": 1,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css/admin.css",
-		"oF": 2,
 		"oS": 0,
 		"sct": 0
 		},
@@ -84,6 +79,19 @@
 		"oA": 1,
 		"oAP": "/scss/base/_typography.css",
 		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/dp-framework.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/dp-framework.css",
+		"oF": 2,
 		"oS": 0,
 		"sct": 0
 		},
