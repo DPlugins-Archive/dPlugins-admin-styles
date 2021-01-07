@@ -1,3 +1,18 @@
+.dp--switch label input{
+
+    background: red;
+
+    span{
+        display: block;
+        background: blue;
+    }
+
+    .rwmb-switch-status{
+        background: yellow;   
+    }
+
+}
+
 .switch {
     position: relative;
     display: inline-block;

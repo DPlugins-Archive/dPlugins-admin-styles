@@ -178,6 +178,17 @@ body.admin-color-sunrise {
   outline: none;
 }
 
+.dp--switch label input {
+  background: red;
+}
+.dp--switch label input span {
+  display: block;
+  background: blue;
+}
+.dp--switch label input .rwmb-switch-status {
+  background: yellow;
+}
+
 .switch {
   position: relative;
   display: inline-block;

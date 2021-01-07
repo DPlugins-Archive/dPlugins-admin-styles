@@ -1,6 +1,8 @@
-$action:    var( --wp-admin-theme-color );
-$action-10: var( --wp-admin-theme-color-10 );;
-$action-20: var( --wp-admin-theme-color-20 );;
+$action:            var( --wp-admin-action );
+$action--hover:     var( --wp-admin-action--hover );
+
+$acent:             var( --wp-admin-theme-acent );
+$acent--hover:      var( --wp-admin-theme-acent--hover );
 
 $grey1:     #191E23;
 $grey2:     #23282D;
@@ -20,3 +22,8 @@ $admin-bg:  #f1f1f1;
 @import "form/switch";
 // @import "form/input";
 // @import "form/submit";
+
+
+
+
+
