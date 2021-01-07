@@ -1,0 +1,24 @@
+@mixin input-border{
+	border: 2px solid $not-active-color;
+	transition: border-color 0.2s ease;
+
+    &:hover{
+    	border: 2px solid $action;	}
+
+    &:focus{
+    	border: 2px solid $action;	}
+
+    &:active{
+    	border: 2px solid $not-active-color;	}	
+}
+
+
+.dp--textarea textarea{
+	@include input-border;
+}
+.dp--date input{
+	@include input-border;
+}
+.dp--time input{
+	@include input-border;
+}

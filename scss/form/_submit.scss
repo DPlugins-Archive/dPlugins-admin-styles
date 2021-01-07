@@ -8,6 +8,14 @@
   &:hover{
   		border: 2px solid $action--hover;   	
   }
+
+  &:focus{
+      border: 2px solid $action; 
+      outline: none;  }
+
+  &:active{
+      border: 2px solid $action;  
+      outline: none;  } 
 }
 
 .dp-btn--pri{
@@ -19,7 +27,7 @@
   &:hover{
   		background-color: $action--hover;   	
   		border: 2px solid $action--hover;   	
-  }
+  }  
 }
 
 .dp-btn--sec{
@@ -34,4 +42,12 @@
   		border: 2px solid $acent--hover;   	
 
   }
+
+  &:focus{
+      border: 2px solid $acent--hover;  
+      outline: none;  }
+
+  &:active{
+      border: 2px solid $acent--hover;  
+      outline: none;}  
 }

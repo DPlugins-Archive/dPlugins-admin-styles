@@ -243,6 +243,48 @@ body.admin-color-sunrise {
   transform: translateX(19px);
 }
 
+.dp--textarea textarea {
+  border: 2px solid #B4B9BE;
+  transition: border-color 0.2s ease;
+}
+.dp--textarea textarea:hover {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--textarea textarea:focus {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--textarea textarea:active {
+  border: 2px solid #B4B9BE;
+}
+
+.dp--date input {
+  border: 2px solid #B4B9BE;
+  transition: border-color 0.2s ease;
+}
+.dp--date input:hover {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--date input:focus {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--date input:active {
+  border: 2px solid #B4B9BE;
+}
+
+.dp--time input {
+  border: 2px solid #B4B9BE;
+  transition: border-color 0.2s ease;
+}
+.dp--time input:hover {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--time input:focus {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--time input:active {
+  border: 2px solid #B4B9BE;
+}
+
 .dp-btn {
   color: var(--wp-admin-action);
   border: 2px solid var(--wp-admin-action);
@@ -252,6 +294,14 @@ body.admin-color-sunrise {
 }
 .dp-btn:hover {
   border: 2px solid var(--wp-admin-action--hover);
+}
+.dp-btn:focus {
+  border: 2px solid var(--wp-admin-action);
+  outline: none;
+}
+.dp-btn:active {
+  border: 2px solid var(--wp-admin-action);
+  outline: none;
 }
 
 .dp-btn--pri {
@@ -275,6 +325,14 @@ body.admin-color-sunrise {
 .dp-btn--sec:hover {
   background-color: var(--wp-admin-theme-acent--hover);
   border: 2px solid var(--wp-admin-theme-acent--hover);
+}
+.dp-btn--sec:focus {
+  border: 2px solid var(--wp-admin-theme-acent--hover);
+  outline: none;
+}
+.dp-btn--sec:active {
+  border: 2px solid var(--wp-admin-theme-acent--hover);
+  outline: none;
 }
 
 /*# sourceMappingURL=admin.css.map */
