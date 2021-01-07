@@ -1,8 +1,13 @@
-$action:           var( --wp-admin-action );
-$action--hover:    var( --wp-admin-action--hover );
+$darker:            10;
 
-$theme-10: var( --wp-admin-theme-color-darker-10 );
-$theme-20: var( --wp-admin-theme-color-darker-20 );
+$action:            var( --wp-admin-action );
+$action--hover:     var( --wp-admin-action--hover );
+
+$acent:             var( --wp-admin-theme-acent );
+$acent--hover:      var( --wp-admin-theme-acent--hover );
+
+$theme-10:          var( --wp-admin-theme-color-darker-10 );
+$theme-20:        var( --wp-admin-theme-color-darker-20 );
 
 $text:            black;
 $disabled:        lightgrey;
@@ -13,17 +18,18 @@ $disabled--hover: grey;
 :root {
   --wp-admin-action: #0073aa;
   --wp-admin-action--hover: #00b9eb;
-  --wp-admin-action--darker: #00b9eb;
+  --wp-admin-theme-acent: #00a0d2;
+  --wp-admin-theme-acent--hover: #008ab5;
 
   --wp-admin-theme-color: #007cba;
   --wp-admin-theme-color-darker-10: #006ba1;
-  --wp-admin-theme-color-darker-20: #005a87; 
-
-}
+  --wp-admin-theme-color-darker-20: #005a87; }
   
 body.admin-color-light {
   --wp-admin-action: #04a4cc;
   --wp-admin-action--hover: #0498bd;
+  --wp-admin-theme-acent: #d64e07;
+  --wp-admin-theme-acent--hover: #c14606;
 
   --wp-admin-theme-color: #0085ba;
   --wp-admin-theme-color-darker-10: #0073a1;
@@ -32,6 +38,8 @@ body.admin-color-light {
 body.admin-color-modern {
   --wp-admin-action: #3858e9;
   --wp-admin-action--hover: #4664eb;
+  --wp-admin-theme-acent: #33f078;
+  --wp-admin-theme-acent--hover: #29dc6a;
 
 
   --wp-admin-theme-color: #3858e9;
@@ -41,6 +49,8 @@ body.admin-color-modern {
 body.admin-color-blue {
   --wp-admin-action: #e1a948;
   --wp-admin-action--hover: #e3af55;
+  --wp-admin-theme-acent: #74B6CE;
+  --wp-admin-theme-acent--hover: #68a3b9;
 
   --wp-admin-theme-color: #096484;
   --wp-admin-theme-color-darker-10: #07526c;
@@ -49,6 +59,8 @@ body.admin-color-blue {
 body.admin-color-coffee {
   --wp-admin-action: #c7a589;
   --wp-admin-action--hover: #c29d7f;
+  --wp-admin-theme-acent: #9EA474;
+  --wp-admin-theme-acent--hover: #8b925d;
 
   --wp-admin-theme-color: #46403c;
   --wp-admin-theme-color-darker-10: #383330;
@@ -57,6 +69,8 @@ body.admin-color-coffee {
 body.admin-color-ectoplasm {
   --wp-admin-action: #a3b745;
   --wp-admin-action--hover: #93a736;
+  --wp-admin-theme-acent: #d46f15;
+  --wp-admin-theme-acent--hover: #bb6111;
 
   --wp-admin-theme-color: #523f6d;
   --wp-admin-theme-color-darker-10: #46365d;
@@ -65,6 +79,8 @@ body.admin-color-ectoplasm {
 body.admin-color-midnight {
   --wp-admin-action: #e35950;
   --wp-admin-action--hover: #d02c21;
+  --wp-admin-theme-acent: #69a8bb;
+  --wp-admin-theme-acent--hover: #5592a5;
 
   --wp-admin-theme-color: #e14d43;
   --wp-admin-theme-color-darker-10: #dd382d;
@@ -73,6 +89,8 @@ body.admin-color-midnight {
 body.admin-color-ocean {
   --wp-admin-action: #9ebaa0;
   --wp-admin-action--hover: #4c6066;
+  --wp-admin-theme-acent: #aa9d88;
+  --wp-admin-theme-acent--hover: #968973;
 
   --wp-admin-theme-color: #627c83;
   --wp-admin-theme-color-darker-10: #576e74;
@@ -81,6 +99,8 @@ body.admin-color-ocean {
 body.admin-color-sunrise {
   --wp-admin-action: #dd823b;
   --wp-admin-action--hover: #c36922;
+  --wp-admin-theme-acent: #CCAF0A;
+  --wp-admin-theme-acent--hover: #ad9407;
 
   --wp-admin-theme-color: #dd823b;
   --wp-admin-theme-color-darker-10: #d97426;

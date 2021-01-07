@@ -124,7 +124,9 @@
   		<span class="switch__slider"></span>
 	</label><br><br>
 
-	<input class="dp-btn_pri" type="submit" value="Submit">
+	<input class="dp-btn" type="submit" value="Submit">
+	<input class="dp-btn dp-btn--pri" type="submit" value="Submit">
+	<input class="dp-btn dp-btn--sec" type="submit" value="Submit">
 
 </form>
 
