@@ -1,3 +1,9 @@
+.dp--switch .rwmb-label{
+    label{
+        margin-bottom: 0.5em;
+        display: block;
+    }
+}
 .dp--switch .rwmb-input{
     
     label{
@@ -20,7 +26,7 @@
         box-sizing: border-box;        
         position: relative;
 
-        background: $grey5;
+        background: $not-active-color;
         border-radius: 100px;  
 
         .rwmb-switch-on{

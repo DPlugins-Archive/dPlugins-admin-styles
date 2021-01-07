@@ -7,13 +7,14 @@
         cursor: pointer;
         outline: 0;
         -webkit-appearance: none;
+        color: $action;
     }
 
     // Style
     input[type=radio] {
         border-radius: 100px;
         background: none;
-        border: 2px solid $grey5;
+        border: 2px solid $not-active-color;
         
         height: 22px !important;
         width: 22px !important;
@@ -54,73 +55,5 @@
             }
 
     }
-
-    
+   
 }
-
-
-
-// .radio {
-//     display: flex;
-//     vertical-align: center;
-//     align-items: center;
-//     position: relative;
-//     cursor: pointer;
-//     font-size: $body--fzn;
-//     user-select: none;
-//     margin-bottom: 15px;
-
-
-//     &__input {
-//     // position: absolute;
-//         opacity: 0;
-//         cursor: pointer;
-//         height: 0;
-//         width: 0;
-
-
-//         &:checked ~ .radio__bg {
-//             background-color: $action;
-
-//             &::after {
-//               display: block;
-//             }
-//         }
-
-//     }
-
-
-//     &__bg {
-//     // position: absolute;
-//         top: 0;
-//         left: 0;
-//         height: 25px;
-//         width: 25px;
-//         background-color: $disabled;
-//         border-radius: 100px;
-//         transition: .2s;
-//         margin-right: 15px;
-
-//         &:after {
-//             content: "";
-//             position: absolute;
-//             display: none;
-//             left: 15px;
-//             top: 5px;
-//             width: 5px;
-//             height: 10px;
-//             transform: rotate(45deg);
-//             border-style: solid;
-//             border-color: white;
-//             border-image: initial;
-//             border-width: 0px 3px 3px 0px;
-//         }
-//     }
-
-//     &:hover .radio__input ~ .radio__bg {
-//         transition: .2s;
-//         background-color: $disabled--hover;
-//     }
-
-
-// }

@@ -94,11 +94,12 @@ body.admin-color-sunrise {
   cursor: pointer;
   outline: 0;
   -webkit-appearance: none;
+  color: var(--wp-admin-action);
 }
 .dp--radio ul input[type=radio] {
   border-radius: 100px;
   background: none;
-  border: 2px solid #A0A5AA;
+  border: 2px solid #B4B9BE;
   height: 22px !important;
   width: 22px !important;
 }
@@ -141,7 +142,7 @@ body.admin-color-sunrise {
 .dp--checkbox ul input[type=checkbox] {
   border-radius: 2px;
   background: none;
-  border: 2px solid #A0A5AA;
+  border: 2px solid #B4B9BE;
   height: 20px !important;
   width: 20px !important;
 }
@@ -178,6 +179,11 @@ body.admin-color-sunrise {
   outline: none;
 }
 
+.dp--switch .rwmb-label label {
+  margin-bottom: 0.5em;
+  display: block;
+}
+
 .dp--switch .rwmb-input label {
   display: inline-flex;
   color: white;
@@ -193,7 +199,7 @@ body.admin-color-sunrise {
   padding: 8px;
   box-sizing: border-box;
   position: relative;
-  background: #A0A5AA;
+  background: #B4B9BE;
   border-radius: 100px;
 }
 .dp--switch .rwmb-input .rwmb-switch-status .rwmb-switch-on {

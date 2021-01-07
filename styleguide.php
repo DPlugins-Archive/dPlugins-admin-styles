@@ -16,6 +16,8 @@
     </div>
 </div>
 
+<br>
+
 
 <h2>Radio</h2>
 <div class="rwmb-field rwmb-radio-wrapper dp--radio">
@@ -32,7 +34,7 @@
 </div>
 
 
-
+<br>
 
 <h2>Switch</h2>
 
@@ -70,7 +72,7 @@
 </div>
 <br>
 
-
+<br>
 
 
 <h2>Textarea</h2>
@@ -166,58 +168,15 @@
 
 </form>
 
+<br><br><br>
 
 <form action="#">
-
-	<h2>Radio</h2>
-		
-	<label class="radio" for="radiobtn1">
-		<input 	class="radio__input" type="radio" id="radio1" name="radio" value="radiobtn1">
-		<span 	class="radio__bg"></span>
-		I have a bike
-	</label>
-		
-	<label class="radio" for="radiobtn2">
-		<input 	class="radio__input" type="radio" id="radio2" name="radio" value="radiobtn2">
-		<span 	class="radio__bg"></span>
-		I have a bike
-	</label>
-		
-	<label class="radio" for="radiobtn2">
-		<input 	class="radio__input" type="radio" id="radio2" name="radio" value="radiobtn3">
-		<span 	class="radio__bg"></span>
-		I have a bike
-	</label>
-
-</form>
-
-<form action="#">
-
-	<h2>Switch Done</h2>
-
-	<label class="switch">
-  		<input class="switch__checkbox" type="checkbox">
-  		<span class="switch__slider"></span>
-	</label><br><br>
-
-	<label class="switch switch--rounded">
-  		<input class="switch__checkbox " type="checkbox" checked>
-  		<span class="switch__slider"></span>
-	</label><br><br>
-	
-	<label class="switch switch--rounded switch--small">
-  		<input class="switch__checkbox " type="checkbox" checked>
-  		<span class="switch__slider"></span>
-	</label><br><br>
-
-	<label class="switch switch--small">
-  		<input class="switch__checkbox " type="checkbox" checked>
-  		<span class="switch__slider"></span>
-	</label><br><br>
 
 	<input class="dp-btn" type="submit" value="Submit">
 	<input class="dp-btn dp-btn--pri" type="submit" value="Submit">
 	<input class="dp-btn dp-btn--sec" type="submit" value="Submit">
 
 </form>
+
+<br><br><br>
 

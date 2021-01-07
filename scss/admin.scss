@@ -12,6 +12,9 @@ $grey5:     #A0A5AA;
 $grey6:     #B4B9BE;
 $admin-bg:  #f1f1f1;
 
+// Form
+$not-active-color: $grey6;
+
 // // Base
 @import "base/colors";
 @import "base/typography";
@@ -22,8 +25,4 @@ $admin-bg:  #f1f1f1;
 @import "form/switch";
 // // @import "form/input";
 @import "form/submit";
-
-
-
-
 
