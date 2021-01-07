@@ -1,115 +1,77 @@
-.dp--switch label input{
-
-    background: red;
-
-    span{
-        display: block;
-        background: blue;
-    }
-
-    .rwmb-switch-status{
-        background: yellow;   
-    }
-
-}
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 30px;
-
-
-    &__checkbox { 
-        opacity: 0;
-        width: 0;
-        height: 0;
-
-        &:hover + .switch__slider {
-           
-        }
-
-        &:checked + .switch__slider {
-            background-color: $action;
-        }
-        
-        &:checked:hover + .switch__slider {
-            background-color: $action--hover;
-        }
-
-        &:focus + .switch__slider {
-            box-shadow: 0 0 1px $action;
-        }
-
-        &:checked + .switch__slider:before {
-            transform: translateX(30px);
-        }
-
-
-
+.dp--switch .rwmb-input{
+    
+    label{
+        display: inline-flex;
+        color: white;
     }
 
 
-    &__slider {
+    input{
+        display: none;
+    }
+
+    .rwmb-switch-status{        
+        display: flex;
+        align-items: center;
+
+        width: 60px;
+        height: 30px;
+        padding: 8px;
+        box-sizing: border-box;        
+        position: relative;
+
+        background: $grey5;
+        border-radius: 100px;  
+
+        .rwmb-switch-on{
+            opacity: 0;
+        }
+    }
+
+    .rwmb-switch-slider{
+        width: 22px;
+        height: 22px;
+        border-radius: 100px;
         position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: $disabled;
-        transition: .2s;
-        border-radius: 2px;
-
-        &:hover{
-             background-color: $disabled--hover;
-        }
-
-
-        &:before {
-            position: absolute;
-            content: "";
-            height: 22px;
-            width: 22px;
-            left: 4px;
-            bottom: 4px;
-            background-color: white;
-            transition: .2s;
-            border-radius: 2px;
-        }
-
+        top: 4px;
+        left: 4px;
+        background-color: white;
+        transition: all 0.3s ease;
     }
+
+     input:checked ~ .rwmb-switch-status{
+        background: $action; 
+
+        .rwmb-switch-on{
+            opacity: 1;
+        }
+
+        .rwmb-switch-slider{
+            transform: translateX(29px);
+            transition: all 0.3s ease;
+        }
+     }
 
 }
 
+.dp--switch-small .rwmb-input{
+    .rwmb-switch-status{
+        width: 40px;
+        height: 20px;
+    }
 
+    .rwmb-switch-on{
+        display: none;
+    }
 
-// Small Switch
-.switch--small{
-    width: 35px;
-    height: 18px;
-
-
-    .switch__slider:before{
-        height: 12px;
-        width: 12px;
+    .rwmb-switch-slider{
+        width: 14px;
+        height: 14px;
+        top: 3px;
         left: 3px;
-        bottom: 3px;
     }
 
-    .switch__checkbox:checked + .switch__slider:before{
-        transform: translateX(16px);
-    }
-
-}
-
-
-
-// Rounded Switch
-.switch--rounded .switch__slider {
-    border-radius: 34px;
-
-    &:before {
-        border-radius: 50%;
-    }
+    input:checked ~ .rwmb-switch-status .rwmb-switch-slider{
+        transform: translateX(19px);
+     }
 }

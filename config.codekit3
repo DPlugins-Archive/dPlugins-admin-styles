@@ -1576,7 +1576,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://plugins-development.local/",
+	"externalServerAddress": "http://plugins-development.local/wp-admin/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

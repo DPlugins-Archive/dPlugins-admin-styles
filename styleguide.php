@@ -38,41 +38,37 @@
 
 <div class="rwmb-field rwmb-switch-wrapper dp--switch">
     <div class="rwmb-label">
-        <label for="SCORG_enable_script">Enable/Disable Script</label>
-
+        <label for="SCORG_enable_script">.dp--switch</label>
     </div>
     <div class="rwmb-input">
         <label class="rwmb-switch-label rwmb-switch-label--rounded">
             <input value="1" type="checkbox" size="30" id="SCORG_enable_script" class="rwmb-switch" name="SCORG_enable_script" checked="checked">
             <div class="rwmb-switch-status">
                 <span class="rwmb-switch-slider"></span>
-                <span class="rwmb-switch-on">Enabled</span>
-                <span class="rwmb-switch-off">Disabled</span>
+                <span class="rwmb-switch-on">On</span>
+                <span class="rwmb-switch-off"></span>
             </div>
         </label>
     </div>
 </div>
 
-<div class="rwmb-field rwmb-switch-wrapper dp--switch">
+<br>
+<div class="rwmb-field rwmb-switch-wrapper dp--switch dp--switch-small">
     <div class="rwmb-label">
-        <label for="SCORG_enable_script">Enable/Disable Script</label>
-
+        <label for="SCORG_enable_script">.dp--switch .dp--switch-small</label>
     </div>
     <div class="rwmb-input">
-        <label class="rwmb-switch-label rwmb-switch-label--square">
+        <label class="rwmb-switch-label rwmb-switch-label--rounded">
             <input value="1" type="checkbox" size="30" id="SCORG_enable_script" class="rwmb-switch" name="SCORG_enable_script" checked="checked">
             <div class="rwmb-switch-status">
                 <span class="rwmb-switch-slider"></span>
-                <span class="rwmb-switch-on">Enabled</span>
-                <span class="rwmb-switch-off">Disabled</span>
+                <span class="rwmb-switch-on">On</span>
+                <span class="rwmb-switch-off"></span>
             </div>
         </label>
     </div>
 </div>
-
-
-
-
+<br>
 
 
 

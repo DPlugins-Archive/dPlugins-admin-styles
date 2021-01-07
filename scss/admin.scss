@@ -12,16 +12,16 @@ $grey5:     #A0A5AA;
 $grey6:     #B4B9BE;
 $admin-bg:  #f1f1f1;
 
-// Base
+// // Base
 @import "base/colors";
 @import "base/typography";
 
-// Form
+// // Form
 @import "form/radio"; 		// Done
 @import "form/checkbox"; 	// Done
 @import "form/switch";
-// @import "form/input";
-// @import "form/submit";
+// // @import "form/input";
+@import "form/submit";
 
 
 
