@@ -88,6 +88,49 @@ body.admin-color-sunrise {
   --wp-admin-theme-color-darker-20: #c36922;
 }
 
+.dp--radio ul input[type=radio] {
+  border: none;
+  clear: none;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+}
+.dp--radio ul input[type=radio] {
+  border-radius: 100px;
+  background: none;
+  border: 2px solid #A0A5AA;
+  height: 22px !important;
+  width: 22px !important;
+}
+.dp--radio ul input[type=radio]:hover {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--radio ul input[type=radio]:before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-style: solid;
+  -o-border-image: initial;
+     border-image: initial;
+  background: var(--wp-admin-action);
+  transform: scale(0);
+  transform-origin: 100% 100%;
+  transition: all 0.1s ease-in;
+}
+.dp--radio ul input[type=radio]:checked {
+  border: 2px solid var(--wp-admin-action);
+}
+.dp--radio ul input[type=radio]:checked:before {
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: all 0.1s ease-in;
+}
+.dp--radio ul input[type=radio]:focus {
+  box-shadow: none;
+  outline: none;
+}
+
 .dp--checkbox ul input[type=checkbox] {
   border: none;
   clear: none;
@@ -120,7 +163,7 @@ body.admin-color-sunrise {
      border-image: initial;
   border-width: 0px 2px 2px 0px;
   transform: rotate(45deg) scale(0);
-  transition: all 0.1s ease;
+  transition: all 0.1s ease-in;
 }
 .dp--checkbox ul input[type=checkbox]:checked {
   background-color: var(--wp-admin-action);
@@ -128,7 +171,7 @@ body.admin-color-sunrise {
 }
 .dp--checkbox ul input[type=checkbox]:checked:before {
   transform: rotate(45deg) scale(1);
-  transition: all 0.1s ease;
+  transition: all 0.1s ease-in;
 }
 .dp--checkbox ul input[type=checkbox]:focus {
   box-shadow: none;

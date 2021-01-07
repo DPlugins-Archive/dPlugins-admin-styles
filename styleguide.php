@@ -16,23 +16,20 @@
     </div>
 </div>
 
-<!-- <form action="#">
 
-	<h2>Checkbox</h2>
-		
-	<label class="checkbox" for="vehicle1">
-		<input 	class="checkbox__input" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-		<span 	class="checkbox__bg"></span>
-		I have a bike
-	</label>
-	
-	<label class="checkbox" for="vehicle2">
-		<input 	class="checkbox__input" type="checkbox" id="vehicle2" name="vehicle2" value="Bike">
-		<span 	class="checkbox__bg"></span>
-		I have a bike
-	</label>
+<h2>Radio</h2>
+<div class="rwmb-field rwmb-radio-wrapper dp--radio">
+    <div class="rwmb-label">
+        <label for="SCORG_script_type">Script in Header or Footer?</label>
 
-</form> -->
+    </div>
+    <div class="rwmb-input">
+        <ul class="rwmb-input-list rwmb-collapse">
+            <li><label><input value="header" type="radio" size="30" class="rwmb-radio" name="SCORG_script_type" checked="checked">Header</label></li>
+            <li><label><input value="footer" type="radio" size="30" class="rwmb-radio" name="SCORG_script_type">Footer</label></li>
+        </ul>
+    </div>
+</div>
 
 
 
@@ -74,20 +71,6 @@
 </div>
 
 
-
-<h2>Radio</h2>
-<div class="rwmb-field rwmb-radio-wrapper dp--radio">
-    <div class="rwmb-label">
-        <label for="SCORG_script_type">Script in Header or Footer?</label>
-
-    </div>
-    <div class="rwmb-input">
-        <ul class="rwmb-input-list rwmb-collapse">
-            <li><label><input value="header" type="radio" size="30" class="rwmb-radio" name="SCORG_script_type" checked="checked">Header</label></li>
-            <li><label><input value="footer" type="radio" size="30" class="rwmb-radio" name="SCORG_script_type">Footer</label></li>
-        </ul>
-    </div>
-</div>
 
 
 
