@@ -22,3 +22,19 @@
 .dp--time input{
 	@include input-border;
 }
+
+.dp--select select{
+    @include input-border;
+
+    color: $action;
+    background-color: white;
+    min-width: 300px;
+
+    &:hover,
+    &:active,
+    &:focus,{
+        color: $action--hover;
+        background-color: $admin_bg;
+        box-shadow: 0 0 0 0px $admin_bg;
+    }
+}

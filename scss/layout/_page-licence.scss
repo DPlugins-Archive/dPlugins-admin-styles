@@ -1,0 +1,160 @@
+.swk_admin_card {
+    margin-bottom: 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+    max-width: 800px;
+}
+
+
+.swk_admin_header {
+    padding: 15px 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+
+.swk_admin_header h3 {
+    margin: 0;  }
+
+
+.swk_admin_header h4 {
+    margin: 0 !important;
+    margin-top: 0.5em !important;
+}
+
+
+.swk_admin_body {
+    padding: 15px 15px; }
+
+#wpbody .rwmb-select-advanced-dark .select2-selection--multiple,
+input[type=text]  {
+  border: 2px solid #e2e2e2 !important;
+  width: 100%;
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    font-size: 1.2em;
+    margin-right: 5px !important;
+}
+
+
+.select2-selection__clear{
+  font-size: 1.5em !important; }
+
+
+.rwmb-label ~ .rwmb-input {
+    width: 100% !important; }
+
+
+.rwmb-field .select2-container {
+    width: 100%;  }
+
+
+.spinner {
+  background: url(/wp-admin/images/spinner.gif) no-repeat;
+  background-size: 16px 16px;
+  display: none;
+  float: right;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  width: 16px;
+  height: 16px;
+  visibility: visible;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+
+.of-save .spinner.show {
+  display: inline-block;
+}
+
+
+.warning-licence-not-active {
+  padding: 10px 20px;
+  color: #a07400;
+  border: 1px solid #ffb900;
+  background: #fbf6ea;
+}
+
+
+#license-form .form-table td {
+  padding: 0px;
+}
+
+
+.licence-status-active {
+  background-color: green;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+  position: relative;
+  margin-left: 10px;
+}
+
+
+#licence-form .swk_admin_body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#licence-form .button-secondary {
+    margin-top: 15px;
+}
+
+
+#swk_license_key {
+    display: block !important;
+    margin-bottom: 15px;
+}
+
+
+.swk-links {
+    color: $action;
+    border: 2px solid #d3d3d3;
+    background: rgba $action, 0.3;
+    border-radius: 100px;
+    font-size: 1.1em;
+    padding: 5px 15px;
+}
+
+
+.swk-links:active,
+.swk-links:focus,
+.swk-links:hover {
+    color: #fff;
+    border-color: $action;
+    background: $action;
+}
+
+
+.licence-status {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    order: -1;
+}
+
+// label
+.description{
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.licence-status .button-secondary {
+    display: block !important;
+    margin-top: 15px;
+}
+
+
+
+
