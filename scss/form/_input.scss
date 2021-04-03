@@ -27,14 +27,18 @@
     @include input-border;
 
     color: $action;
-    background-color: white;
+    background-color: var(--admin_bg);
     min-width: 300px;
 
     &:hover,
     &:active,
     &:focus,{
         color: $action--hover;
-        background-color: $admin_bg;
-        box-shadow: 0 0 0 0px $admin_bg;
+        background-color: var(--admin_bg);
+        box-shadow: 0 0 0 0px var(--admin_bg);
     }
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+    background: var(--bg);
 }
