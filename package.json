@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krstivoja/dPlugins-admin-styles.git"
+    "url": "git+https://github.com/dplugins/dPlugins-admin-styles.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/krstivoja/dPlugins-admin-styles/issues"
+    "url": "https://github.com/dplugins/dPlugins-admin-styles/issues"
   },
-  "homepage": "https://github.com/krstivoja/dPlugins-admin-styles#readme"
+  "homepage": "https://github.com/dplugins/dPlugins-admin-styles#readme"
 }
