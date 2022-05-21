@@ -1,0 +1,14 @@
+package.json
+package-lock.json
+.cache/
+coverage/
+.scannerwork/
+.angular
+*.min.js
+*-min.js
+/features
+/admin
+dist
+dist-npm-release
+dist-release
+releases
