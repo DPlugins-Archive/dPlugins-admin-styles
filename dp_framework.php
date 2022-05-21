@@ -29,7 +29,7 @@ function DP_framework_page(){
 }
 
 function DP_enqueue_admin_script() {
-	wp_enqueue_style( 'DP_admin_css', DP_URL . 'dist/styles.css');
+	wp_enqueue_style( 'DP_admin_css', DP_URL . 'dist/style.css');
 }
 
 add_action( 'admin_enqueue_scripts', 'DP_enqueue_admin_script' );
