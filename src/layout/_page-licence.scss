@@ -54,7 +54,7 @@ input[type=text]  {
 
 
 .spinner {
-  background: url(/wp-admin/images/spinner.gif) no-repeat;
+  background: url("/wp-admin/images/spinner.gif") no-repeat;
   background-size: 16px 16px;
   display: none;
   float: right;
