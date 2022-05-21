@@ -10,7 +10,7 @@
     "start": "webpack --watch --config=webpack.dev.js",
     "prettier": "prettier --check \"**/*.{css,html,js,json,scss,ts}\"",
     "prettier:fix": "prettier --write \"**/*.{css,html,js,json,scss,ts}\"",
-    "postrelease": "node utils/postrelease.js",
+    "version": "node utils/postrelease.js && git add dp_framework.php",
     "publish": "npm run build:npm-release && cd dist-npm-release && npm publish"
   },
   "repository": {
